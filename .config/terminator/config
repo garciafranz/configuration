@@ -1,0 +1,23 @@
+[global_config]
+  tab_position = right
+  inactive_color_offset = 1.0
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.91
+    background_type = transparent
+    cursor_blink = False
+    font = Luculent 10
+    foreground_color = "#a51d2d"
+    show_titlebar = False
+    palette = "#3d3846:#cc241d:#98971a:#e5a50a:#613583:#865e3c:#ff7800:#a89984:#5e5c64:#fb4934:#b8bb26:#f5c211:#c061cb:#986a44:#ffa348:#ebdbb2"
+    bold_is_bright = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
