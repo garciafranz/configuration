@@ -46,3 +46,5 @@ alias ls='ls --color=auto'
 alias sudo='sudo '
 export EDITOR='vim'
 export VISUAL='vim'
+export TZ='America/Los_Angeles'
+export PS1="\[\e[01;34m\]\$? \D{%H%M} \[\e[00m\]${PS1}"
