@@ -53,7 +53,6 @@ if has('syntax') && has('eval')
 endif
 
 
-"added on 250112
 set nocopyindent
 set preserveindent
 set nosmarttab
@@ -62,15 +61,15 @@ set nobk nowb noswf noudf " nobackup nowritebackup noswapfile noundofile
 set noeb vb t_vb= " errorbells visualbell
 set number
 set norelativenumber
-set noexpandtab
 set nocompatible
 "filetype plugin indent on
 set autoindent
 set nosmartindent
 set nocindent
-"autocmd FileType html setlocal nohtml
-au FileType html,htmldjango setlocal indentkeys=
 "https://vimrcfu.com/snippet/126
 " Disable automatic label dedent.
 " Can also be set in ~/.vim/after/ftplugin/cpp.vim
 autocmd FileType cpp setlocal cinoptions+=L0
+"found in /usr/share/vim/vim91/ftplugin
+au FileType html,htmldjango setlocal indentkeys=
+set noexpandtab "Preserve tabs for filetypes that are not special
